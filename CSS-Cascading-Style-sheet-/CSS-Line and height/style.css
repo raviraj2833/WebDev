@@ -1,0 +1,27 @@
+h1{
+    color: black;
+    background-color: rgb(217, 198, 198);
+    text-align: center;
+    text-decoration: dotted;
+    letter-spacing: 5px;
+}
+h2{
+    color: black;
+    text-align: left;
+    margin: auto;
+}
+p{
+    color: black;
+    background-color: aliceblue;
+    line-height: 2.5;
+   
+
+}
+img{
+    height: 216px;
+
+}
+div{
+    color: black;
+    background-color: aliceblue;
+}

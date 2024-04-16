@@ -1,0 +1,30 @@
+h1{
+    font-weight: bold;
+    text-align: left;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h2{
+    text-align:left;
+   font-weight:bolder;
+   text-decoration-style: wavy;
+   font-size: 50px;
+   font-style: italic;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+p{
+    line-height: 2.5;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+img{
+    border-radius: 50px;
+    height: 175px;
+    width: 200px;
+
+}
