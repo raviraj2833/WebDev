@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-option">
+                        <img src="/assets/library_icon.png">
+
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="/assets/backward_icon.png">
+                    <img src="/assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge hide">Explore Premium</button>
+                    <button class="badge-2 ">
+                        <i class="fa-solid fa-circle-arrow-down" style="margin-right: 2px;"></i>
+                        Install App</button>
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="information">
+                <button class="badge-1">All</button>
+                <button class="badge-3">Music</button>
+                <button class="badge-3">Podcasts</button>
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/card1img.jpeg" class="card-image">
+                    <p class="card-title">Top 50-Global</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+            </div>
+
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/card2img.jpeg" class="card-image">
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Singer & Composer DARSHAN RAVAL Lyrics YOUNGVEER </p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card3img.jpeg" class="card-image">
+                    <p class="card-title">Mere Pass Tum Ho</p>
+                    <p class="card-info">Singer Rahat Fateh Ali Khan
+
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card4img.jpeg" class="card-image">
+                    <p class="card-title">Top 50-songs</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+
+
+            </div>
+            <h2>Featured and Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/assets/card5img.jpeg" class="card-image">
+                    <p class="card-title">Top songs - Global</p>
+                    <p class="card-info">Your weekly update of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card6img.jpeg" class="card-image">
+                    <p class="card-title">Top songs India</p>
+                    <p class="card-info">Your weekly update of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card1img.jpeg" class="card-image">
+                    <p class="card-title">Top songs - Global</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="/Homework  assets/album_picture.jpeg">
+                <p class="card-title" style="position:relative; left:25px; padding-bottom:1rem;">Daylight</p>
+                <p class="card-info" style="position:relative; top:14px; right:50px;">David kushner</p>
+                <img src="/Homework  assets/album_icon1.png" class="album-icon">
+                <img src="/Homework  assets/album_icon2.png" class="album-icon" style="height: 2rem;">
+
+
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="/assets/player_icon1.png" class="player-control-icon">
+                    <img src="/assets/player_icon2.png" class="player-control-icon">
+                    <img src="/assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height:2rem;">
+                    <img src="/assets/player_icon4.png" class="player-control-icon">
+                    <img src="/assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="control">
+                <div class="control-icon">
+                    <img src="/Homework  assets/controls_icon1.png" class="control-icons" style="height: 2rem;">
+                    <img src="/Homework  assets/controls_icon2.png" class="control-icons" style="height: 2rem;">
+                    <img src="/Homework  assets/controls_icon3.png" class="control-icons" style="height: 1.4rem;">
+                    <img src="/Homework  assets/controls_icon4.png" class="control-icons" style="height: 1.3rem;">
+                    <img src="/Homework  assets/controls_icon5.png" class="control-icons" style="height: 2.5rem;">
+                    <input type="range" min="0" max="100" class="control-progress" step="1">
+                </div>
+                <div class="play-control-bar"></div>
+            </div>
+        </div>
+</body>
+
+</html>
